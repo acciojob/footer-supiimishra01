@@ -1,1 +1,110 @@
 /* your code here */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 20px 20px;
+}
+
+footer .content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-details .logo_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.media-icons a {
+  color: white;
+  background: #222;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.media-icons a:hover {
+  background: #f9a825;
+}
+
+.link-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.link-boxes .box {
+  width: 220px;
+}
+
+.link-boxes .box li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.link-boxes .box .link_name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.link-boxes .box a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.link-boxes .box a:hover {
+  color: white;
+}
+
+.bottom-details {
+  background: #222;
+  color: #ccc;
+  padding: 15px 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.bottom-details a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.bottom-details a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .top,
+  .link-boxes {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-boxes .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bottom-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
