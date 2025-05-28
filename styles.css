@@ -30,7 +30,7 @@ footer .top {
   border-radius: 50%;
   font-size: 18px;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   transition: background 0.3s;
 }
 
