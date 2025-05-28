@@ -18,6 +18,8 @@ footer .top {
 }
 
 .logo-details .logo_name {
+	/* margin:20px; */
+	/* padding:10px; */
   font-size: 24px;
   font-weight: bold;
 }
@@ -30,7 +32,7 @@ footer .top {
   border-radius: 50%;
   font-size: 18px;
   text-decoration: none;
-  display: flex;
+  display: flex-start;
   transition: background 0.3s;
 }
 
@@ -101,6 +103,12 @@ footer .top {
     width: 100%;
     margin-bottom: 20px;
   }
+
+	.media-icons a {
+		display:flex-start;
+		justify-content:center;
+		align-items:center;
+	}
 
   .bottom-details {
     flex-direction: column;
